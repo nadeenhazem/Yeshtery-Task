@@ -1,0 +1,69 @@
+@use './Variables' as *;
+.similar-main-div{
+    color: #767676;
+     text-align: left;
+     h3{
+        color: $secondary-color;
+     }
+}
+.similar-card{
+   border: 2px solid rgb(239, 239, 239) !important;
+   border-radius: 20%;
+   cursor: pointer;
+   .similar-img{
+      padding: 2%;
+      border-radius: 5%;
+height: 200px; 
+  } 
+   h6{
+      color: black;
+      padding: 2%;
+   } 
+   .similar-price{
+      color: $secondary-color;
+      font-weight: bold;
+      font-size: larger;
+      margin-left: 4%;
+
+   }
+   .main-price{
+      color: #767676;
+      text-decoration: line-through;
+      padding-top: 10%;
+      margin-left: 4%;
+   }
+   .offer{
+      background-color: $primary-color;
+      padding: 1% 8%;
+      color: black;
+      font-size: small;
+      margin-left: 15%;
+     
+   }
+   .brand{
+      float: right;
+      width: 25%;
+    
+   }
+}
+.similar-stars-icon-fill{
+   margin: auto;
+   font-size: x-large;
+      color: #FFC93C; 
+}
+.similar-stars-icon-outline {
+   font-size: x-large;
+}
+.ship-info{
+   font-size: medium;
+margin: 2%;
+text-align: center;
+.similar-from{
+   float: left;
+}
+
+.similar-in{
+   float: right;
+}
+}
+

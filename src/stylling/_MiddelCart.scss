@@ -1,0 +1,142 @@
+@use './Variables' as *;
+
+.images {
+
+    img {
+        width: 15%;
+    }
+
+    h5 {
+        width: 70%;
+    }
+
+    .Category {
+        color: #767676;
+        font-size: large;
+    }
+
+    .stars-container {
+        .stars-icon-fill {
+            font-size: x-large;
+            color: #FFC93C;
+        }
+
+        .stars-icon-outline {
+            font-size: x-large;
+        }
+
+        h6 {
+            display: inline;
+        }
+    }
+
+    .Price {
+        color: $secondary-color;
+        font-size: x-large;
+        font-weight: bold;
+
+        span {
+            font-weight: 500;
+            font-size: large;
+        }
+    }
+
+    .Size {
+        border: 1px solid#d6d5d5;
+        border-radius: 50%;
+        color: $secondary-color;
+        font-size: small;
+        display: inline-block;
+        padding: 3% 2%;
+        cursor: pointer;
+        margin: 0% 1%;
+
+    }
+
+    .sizeChoosed {
+        @extend .Size;
+        color: black;
+        background-color: #d6d5d5;
+    }
+
+}
+
+.Color {
+    border-radius: 50%;
+    max-width: 10%;
+    display: inline;
+    cursor: pointer;
+    margin: 0% 1%;
+}
+
+.colorChoosed {
+    @extend .Color;
+    border: 2px solid $secondary-color;
+}
+
+#Q-decrese {
+    background-color:$primary-color;
+    color: black;
+    font-size: large;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+    cursor: pointer;
+    height: 90%;
+    margin-top: 0.5%;
+}
+
+#Q-increse {
+    @extend #Q-decrese;
+    left: 21.5%;
+
+}
+
+#Q-input {
+    max-width: 30%;
+    z-index: 1;
+    border-radius: 20px;
+    text-align: center;
+    color: $secondary-color;
+}
+
+.AddCart-btn {
+    border-style: none;
+    color: white;
+    background-color: $secondary-color;
+    border-radius: 20px;
+    width: 38%;
+    margin: 1% 2%;
+    font-size: large;
+    font-weight: 600;
+    padding: 2% 0%;
+}
+.Pickup-btn{
+    @extend .AddCart-btn;
+    background-color: $primary-color;
+    color: black;
+}
+
+.data-image {
+    text-align: center;
+
+    .main-img {
+        width: 70%;
+        display: block;
+        margin: auto;
+        margin-bottom: 4%;
+    }
+
+    .carousel-img {
+        width: 15%;
+        display: inline;
+        margin: 1%;
+        cursor: pointer;
+    }
+
+    .Arrow-icons {
+        color: rgb(132, 131, 131);
+        font-size: xx-large;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,49 @@
+@use './Variables' as *;
+#Cart-summery{
+    color: black;
+    margin-top: 2%;
+    font-weight: bolder;
+    font-size: larger;
+}
+#Card-Cart{
+    border-radius: 10px;
+    border: 1px solid rgb(239, 236, 236);
+}
+.Cart-img{
+    width: 140%;
+    margin-top: 15%;
+}
+.Cart-name{
+    margin-top: 5%;
+    font-weight: bold;
+    font-size: large;
+
+
+}
+.Cart-Price{
+color: $secondary-color;
+font-weight: 800;
+font-size: larger;
+display: inline;
+span{
+    font-weight: 500;
+    font-size: small;
+
+}
+
+}
+.Remove-btn{
+    float: right;
+    background-color: $primary-color;
+    color:black;
+    border-style: none;
+    border-radius: 20px;
+    padding: 1% 4%;
+    margin-right: 2%;
+    margin-bottom: 5%;
+}
+.total-price{
+    @extend #Cart-summery;
+    text-align: center;
+    font-size: x-large;
+}

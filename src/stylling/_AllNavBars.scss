@@ -1,0 +1,117 @@
+@use './Variables' as *;
+.Nav-top-section{
+    max-width: 100%;
+    background-color: $primary-color;
+    text-align: center;
+}
+#Nav-top-Menu{
+    border-style: none;
+    font-size: x-large;
+    margin-left: 55%;
+
+}
+#Nav-top-Name{    
+    font-weight: bold;
+    font-family: 'Montserrat Alternates';
+    margin-top: 2%;
+}
+#Nav-Top-Valentines{
+    margin-top: 1.5%;
+}
+.Nav-Top-Shop{
+    font-weight: bold;
+          cursor: pointer;
+          text-decoration: underline;  
+        }
+
+#Nav-Top-Contact{
+    margin-top: 1.5%;
+    font-weight: 600;
+    div{
+        display: inline;
+        margin-right:2%;
+    }
+}
+@include MediaScreen(mobile){
+    #Nav-top-Menu{
+        float: left;
+        margin-left: 0%;
+    }
+    #Nav-Top-Valentines{
+        display: none;
+    }
+    #Nav-Top-Contact{
+        display: none;
+    }
+    
+}
+/**********************Second Navbar*********************/
+.Sec-Nav-section{
+max-width: 100%;
+}
+#Sec-Nav-Menu{
+    // border-style: none !important;
+    color: black;
+    
+    width: fit-content;
+    border: 1px solid transparent;
+    
+}
+
+
+.Cart-icon{
+    font-size: xx-large;
+ }
+ .cart-number{
+     background-color: $primary-color;
+     border-radius: 9px;
+     font-size: 12px;
+       padding: 0 5px;
+       vertical-align: top;
+       margin-left: -11px;
+       margin-top: 2px;
+ }
+ #Cart-Name{
+    text-align: center;
+    color: $secondary-color;
+    font-weight: bold;
+    font-size: xx-large;
+ }
+ .Sec-Nav-icons{
+    color: black;
+    font-size: larger;
+    font-weight: 500;
+    cursor: pointer;
+    div{
+        margin-left: 6%;
+        margin-top: 7%;
+
+    }
+ }
+ .Sec-nav-img{
+    width: 20%;
+    text-align: center;
+ }
+ #Nav-Search{
+    max-width: 50%;
+
+    border-radius: 20px;
+    margin-top: 4%;
+    padding-left: 7%;
+ }
+ #Nav-Search-icon{
+    margin-left: 20%;
+    margin-top: 4%;
+    background-color: transparent;
+    border: none;
+    position: relative;
+ }
+ .Nav-Search-icon{
+    position: absolute;
+    z-index: 8;
+    left: 30px;
+    cursor: pointer;
+ }
+
+    
+

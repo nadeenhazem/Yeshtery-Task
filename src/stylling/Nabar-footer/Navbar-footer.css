@@ -1,0 +1,218 @@
+.logo-footer {
+  font-family: "Montserrat Alternates";
+  font-size: xx-large;
+  font-weight: 700;
+  color: #FFED00;
+}
+
+.footer-img {
+  max-width: 15%;
+  display: inline;
+}
+
+#subscribe {
+  border-radius: 20px;
+  padding: 2%;
+}
+
+#subscribe-btn {
+  background-color: #FFED00;
+  position: absolute;
+  right: 0%;
+  border-radius: 20px;
+  z-index: 8;
+  margin: 0.5%;
+  cursor: pointer;
+}
+
+.hr-vl, .hr-vl2 {
+  border-left: 2px solid #636363;
+  height: 300px;
+  margin-left: 50%;
+  margin-top: 25%;
+}
+
+.hr-vl2 {
+  height: 170px;
+  margin-top: 0%;
+}
+
+.img-footer-cash {
+  width: 10%;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .hr-vl, .hr-vl2 {
+    display: none;
+  }
+}
+.Nav-top-section {
+  max-width: 100%;
+  background-color: #FFED00;
+  text-align: center;
+}
+
+#Nav-top-Menu {
+  border-style: none;
+  font-size: x-large;
+  margin-left: 55%;
+}
+
+#Nav-top-Name {
+  font-weight: bold;
+  font-family: "Montserrat Alternates";
+  margin-top: 2%;
+}
+
+#Nav-Top-Valentines {
+  margin-top: 1.5%;
+}
+
+.Nav-Top-Shop {
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#Nav-Top-Contact {
+  margin-top: 1.5%;
+  font-weight: 600;
+}
+#Nav-Top-Contact div {
+  display: inline;
+  margin-right: 2%;
+}
+
+@media screen and (max-width: 768px) {
+  #Nav-top-Menu {
+    float: left;
+    margin-left: 0%;
+  }
+  #Nav-Top-Valentines {
+    display: none;
+  }
+  #Nav-Top-Contact {
+    display: none;
+  }
+}
+/**********************Second Navbar*********************/
+.Sec-Nav-section {
+  max-width: 100%;
+}
+
+#Sec-Nav-Menu {
+  color: black;
+  width: -moz-fit-content;
+  width: fit-content;
+  border: 1px solid transparent;
+}
+
+.Cart-icon {
+  font-size: xx-large;
+}
+
+.cart-number {
+  background-color: #FFED00;
+  border-radius: 9px;
+  font-size: 12px;
+  padding: 0 5px;
+  vertical-align: top;
+  margin-left: -11px;
+  margin-top: 2px;
+}
+
+#Cart-Name {
+  text-align: center;
+  color: #6537ca;
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+.Sec-Nav-icons {
+  color: black;
+  font-size: larger;
+  font-weight: 500;
+  cursor: pointer;
+}
+.Sec-Nav-icons div {
+  margin-left: 6%;
+  margin-top: 7%;
+}
+
+.Sec-nav-img {
+  width: 20%;
+  text-align: center;
+}
+
+#Nav-Search {
+  max-width: 50%;
+  border-radius: 20px;
+  margin-top: 4%;
+  padding-left: 7%;
+}
+
+#Nav-Search-icon {
+  margin-left: 20%;
+  margin-top: 4%;
+  background-color: transparent;
+  border: none;
+  position: relative;
+}
+
+.Nav-Search-icon {
+  position: absolute;
+  z-index: 8;
+  left: 30px;
+  cursor: pointer;
+}
+
+#Cart-summery, .total-price {
+  color: black;
+  margin-top: 2%;
+  font-weight: bolder;
+  font-size: larger;
+}
+
+#Card-Cart {
+  border-radius: 10px;
+  border: 1px solid rgb(239, 236, 236);
+}
+
+.Cart-img {
+  width: 140%;
+  margin-top: 15%;
+}
+
+.Cart-name {
+  margin-top: 5%;
+  font-weight: bold;
+  font-size: large;
+}
+
+.Cart-Price {
+  color: #6537ca;
+  font-weight: 800;
+  font-size: larger;
+  display: inline;
+}
+.Cart-Price span {
+  font-weight: 500;
+  font-size: small;
+}
+
+.Remove-btn {
+  float: right;
+  background-color: #FFED00;
+  color: black;
+  border-style: none;
+  border-radius: 20px;
+  padding: 1% 4%;
+  margin-right: 2%;
+  margin-bottom: 5%;
+}
+
+.total-price {
+  text-align: center;
+  font-size: x-large;
+}/*# sourceMappingURL=Navbar-footer.css.map */

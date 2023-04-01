@@ -1,0 +1,185 @@
+.images img {
+  width: 15%;
+}
+.images h5 {
+  width: 70%;
+}
+.images .Category {
+  color: #767676;
+  font-size: large;
+}
+.images .stars-container .stars-icon-fill {
+  font-size: x-large;
+  color: #FFC93C;
+}
+.images .stars-container .stars-icon-outline {
+  font-size: x-large;
+}
+.images .stars-container h6 {
+  display: inline;
+}
+.images .Price {
+  color: #6537ca;
+  font-size: x-large;
+  font-weight: bold;
+}
+.images .Price span {
+  font-weight: 500;
+  font-size: large;
+}
+.images .Size, .images .sizeChoosed {
+  border: 1px solid #d6d5d5;
+  border-radius: 50%;
+  color: #6537ca;
+  font-size: small;
+  display: inline-block;
+  padding: 3% 2%;
+  cursor: pointer;
+  margin: 0% 1%;
+}
+.images .sizeChoosed {
+  color: black;
+  background-color: #d6d5d5;
+}
+
+.Color, .colorChoosed {
+  border-radius: 50%;
+  max-width: 10%;
+  display: inline;
+  cursor: pointer;
+  margin: 0% 1%;
+}
+
+.colorChoosed {
+  border: 2px solid #6537ca;
+}
+
+#Q-decrese, #Q-increse {
+  background-color: #FFED00;
+  color: black;
+  font-size: large;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  cursor: pointer;
+  height: 90%;
+  margin-top: 0.5%;
+}
+
+#Q-increse {
+  left: 21.5%;
+}
+
+#Q-input {
+  max-width: 30%;
+  z-index: 1;
+  border-radius: 20px;
+  text-align: center;
+  color: #6537ca;
+}
+
+.AddCart-btn, .Pickup-btn {
+  border-style: none;
+  color: white;
+  background-color: #6537ca;
+  border-radius: 20px;
+  width: 38%;
+  margin: 1% 2%;
+  font-size: large;
+  font-weight: 600;
+  padding: 2% 0%;
+}
+
+.Pickup-btn {
+  background-color: #FFED00;
+  color: black;
+}
+
+.data-image {
+  text-align: center;
+}
+.data-image .main-img {
+  width: 70%;
+  display: block;
+  margin: auto;
+  margin-bottom: 4%;
+}
+.data-image .carousel-img {
+  width: 15%;
+  display: inline;
+  margin: 1%;
+  cursor: pointer;
+}
+.data-image .Arrow-icons {
+  color: rgb(132, 131, 131);
+  font-size: xx-large;
+  cursor: pointer;
+}
+
+.similar-main-div {
+  color: #767676;
+  text-align: left;
+}
+.similar-main-div h3 {
+  color: #6537ca;
+}
+
+.similar-card {
+  border: 2px solid rgb(239, 239, 239) !important;
+  border-radius: 20%;
+  cursor: pointer;
+}
+.similar-card .similar-img {
+  padding: 2%;
+  border-radius: 5%;
+  height: 200px;
+}
+.similar-card h6 {
+  color: black;
+  padding: 2%;
+}
+.similar-card .similar-price {
+  color: #6537ca;
+  font-weight: bold;
+  font-size: larger;
+  margin-left: 4%;
+}
+.similar-card .main-price {
+  color: #767676;
+  text-decoration: line-through;
+  padding-top: 10%;
+  margin-left: 4%;
+}
+.similar-card .offer {
+  background-color: #FFED00;
+  padding: 1% 8%;
+  color: black;
+  font-size: small;
+  margin-left: 15%;
+}
+.similar-card .brand {
+  float: right;
+  width: 25%;
+}
+
+.similar-stars-icon-fill {
+  margin: auto;
+  font-size: x-large;
+  color: #FFC93C;
+}
+
+.similar-stars-icon-outline {
+  font-size: x-large;
+}
+
+.ship-info {
+  font-size: medium;
+  margin: 2%;
+  text-align: center;
+}
+.ship-info .similar-from {
+  float: left;
+}
+.ship-info .similar-in {
+  float: right;
+}/*# sourceMappingURL=Middel-similar.css.map */

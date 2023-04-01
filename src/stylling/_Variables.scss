@@ -1,0 +1,14 @@
+$primary-color:#FFED00;
+$secondary-color:#6537ca;
+@mixin MediaScreen($point-Width){
+    @if $point-Width == mobile {
+        @media screen and (max-width:768px) {
+            @content;
+        }
+    }
+    @else if $point-Width == largeScreen {
+        @media screen and (min-width:1600px) {
+            @content;
+        }
+    }
+}
