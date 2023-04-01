@@ -12,7 +12,6 @@ function MiddelCart(props) {
     const [colorImg, setcolorImg] = useState('https://i.ibb.co/4WSws5Q/itemimg3.jpg');
     let [num, setNum] = useState(1);
     const CartNum =localStorage.getItem("Counter");
-console.log(CartNum)
     let incNum = () => {
         if (num < 20) {
             setNum(Number(num) + 1);
@@ -37,7 +36,9 @@ console.log(CartNum)
             colorImg
         }
         AddToCart(PostData)
-      window.location.reload() 
+        setInterval(() => {
+            window.location.reload() ;
+          }, 1000);
        
     }
     const LazyComponent = React.lazy(()=>import('./SimilarProduct'))

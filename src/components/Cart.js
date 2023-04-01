@@ -22,14 +22,15 @@ function Cart(props) {
         const sum = Q * P;
         TotalPrice += sum;
         localStorage.setItem("Counter", Fetch.length);
-        console.log(Fetch.length)
         return sum
     }
     const Deleteitem=(id)=>{
         deleteitem(id);
         const CartNum =localStorage.getItem("Counter");
         localStorage.setItem("Counter", (parseInt(CartNum) -1));
-        window.location.reload() 
+        setInterval(() => {
+            window.location.reload() ;
+          }, 1000);
 
 
     }
@@ -50,7 +51,7 @@ function Cart(props) {
                         Cart Summary</Navbar.Text>{
                     
                     
-                        Fetch==null?console.log('lazyLoading'):
+                        Fetch==null?console.log(''):
                         Fetch.length===0?<Navbar.Text>You Have no items yet..</Navbar.Text>:
                         Fetch.map((item) => (
                             <div className='card 'id='Card-Cart'key={item.id} style={{marginBottom:'5%'}}>
@@ -78,15 +79,18 @@ function Cart(props) {
                         ))
                         
                     }
-                    
-                    <div className='total-price'>
+                    {Fetch==null?console.log(''):Fetch.length!==0&&
+                    <><div className='total-price'>
                         Total: {TotalPrice} LE
                     </div>
                     <p>
-                                    <button className='AddCart-btn' style={{fontSize:'smaller'}}>Review Cart</button>
-                                    <button className='Pickup-btn'style={{fontSize:'smaller',float:'right'}}> Compelet Check out</button>
+                    <button className='AddCart-btn' style={{fontSize:'smaller'}}>Review Cart</button>
+                    <button className='Pickup-btn'style={{fontSize:'smaller',float:'right'}}> Compelet Check out</button>
 
-                                </p>
+                </p></>}
+                    
+                    
+                    
                 </Nav>
 
 

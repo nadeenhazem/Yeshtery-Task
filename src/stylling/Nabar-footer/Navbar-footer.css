@@ -95,6 +95,9 @@
   #Nav-Top-Contact {
     display: none;
   }
+  #Sec-Nav-Menu {
+    margin-left: -6%;
+  }
 }
 /**********************Second Navbar*********************/
 .Sec-Nav-section {
@@ -215,4 +218,11 @@
 .total-price {
   text-align: center;
   font-size: x-large;
+}
+
+@media screen and (max-width: 768px) {
+  .Cart-img {
+    width: 100%;
+    margin-top: 15%;
+  }
 }/*# sourceMappingURL=Navbar-footer.css.map */
